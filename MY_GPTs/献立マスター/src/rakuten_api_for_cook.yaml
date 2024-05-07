@@ -1,0 +1,84 @@
+openapi: 3.0.0
+info:
+  title: Rakuten Services API
+  version: "1.0.0"
+servers:
+  - url: https://app.rakuten.co.jp/services/api
+
+paths:
+  /Recipe/CategoryList/20170426:
+    get:
+      summary: Retrieve all recipe categories
+      operationId: getCategoryList
+      parameters:
+        - name: applicationId
+          in: query
+          schema:
+            type: string
+          required: true
+          description: "applicationId={hoge}"
+        - name: categoryType
+          in: query
+          schema:
+            type: string
+          required: false
+          default: medium
+          description: "Type of the category (large, medium)."
+      responses:
+        '200':
+          description: A successful response containing the list of categories.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        categoryId:
+                          type: string
+                        categoryName:
+                          type: string
+                        categoryUrl:
+                          type: string
+  /Recipe/CategoryRanking/20121121:
+    get:
+      summary: Get top 3 recipes in a specific category
+      operationId: getCategoryTopRecipes
+      parameters:
+        - name: applicationId
+          in: query
+          schema:
+            type: string
+          required: true
+          description: "applicationId={hoge}"
+        - name: categoryId
+          in: query
+          schema:
+            type: string
+          required: true
+          description: |
+            - "Refer to the [rakuten_recipe_categoryList.md] file in the knowledge and retrieve the categoryId."
+      responses:
+        '200':
+          description: A successful response containing top 3 recipes in the specified category.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        recipeTitle:
+                          type: string
+                        recipeUrl:
+                          type: string
+                        foodImageUrl:
+                          type: string
+                        recipeDescription:
+                          type: string

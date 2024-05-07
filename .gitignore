@@ -1,0 +1,12 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore metadata files
+*.log
+*.cache
+
+# Ignore directories
+/projects/00_sample_dir/*
