@@ -7,6 +7,11 @@
 ## dir
 ```
 samples\
+    └── Generate_imege\
+        └── assets
+            ├── xxx.png: 生成AIえ作成した画像のサンプル集を格納しています。
+        └── src
+            ├── img_prompt_list.md: プロンプトと作成した画像を添付してまとめています。
     └── MY_GPTs\
         └── 01_AI_prompt_template.md: MY GPTsや、AI指示の際によく使用しているテンプレートです。
         └── 献立マスター\
