@@ -3,7 +3,7 @@
     - seed値=0
 }
 
-# maim_functionを定義する。:{
+# main_functionを定義する。:{
     - def_gpts_main():{
         - description:{
             - AI向け項目説明: このメイン関数自体が実現したいことを記述します。
