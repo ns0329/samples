@@ -16,5 +16,4 @@
 - プロンプト{
     [A vertical watercolor wallpaper that depicts a serene morning at the beach, focusing on the sunrise over the sea with gentle waves, now portrayed in a style that closely resembles a traditional painting. The artwork is filled with the soft pastel colors of the morning's warm glow and the sea's tranquil blues, enriched with the depth and texture characteristic of a painting. This style emphasizes the elegance and richness of the scene, blending the colors in a harmonious composition that captures the peaceful yet vibrant atmosphere of the early morning by the sea.]
 }
-</br>
 ![sunset_seaside](https://github.com/nsh00/samples/blob/main/Generate_imege/assets/sunset_seaside.png)
