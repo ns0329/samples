@@ -1,9 +1,9 @@
-命令文:{
+# 命令文:{
     - def_gpts_main()を実行する。
     - seed値=0
 }
 
-maim_functionを定義する。:{
+# maim_functionを定義する。:{
     - def_gpts_main():{
         - description:{
             - AI向け項目説明: このメイン関数自体が実現したいことを記述します。
@@ -94,7 +94,7 @@ maim_functionを定義する。:{
         }
     }
 }
-個別機能を表すfanctionsを任意数定義する。:{
+# 個別機能を表すfanctionsを任意数定義する。:{
     - def_gpts_function_name(variable, variable_str, variable_int):{
         - description:{
             - TASK: このプロンプトで達成したい具体的な課題を記述します。
@@ -159,7 +159,7 @@ maim_functionを定義する。:{
         }
     }
 }
-note:{
+# note:{
     - 上記はテンプレートです。
     - 関数作成で文字数制限が発生した場合:{
         - functionsのみを別ファイルに記述する。

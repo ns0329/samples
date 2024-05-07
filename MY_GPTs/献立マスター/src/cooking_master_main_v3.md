@@ -1,8 +1,8 @@
-命令文:{
+# 命令文:{
     - def_gpts_main(order)を実行する。
     - seed値=0
 }
-def_gpts_main(order) -> responce(str):{
+# def_gpts_main(order) -> responce(str):{
     - description:{
         - TASK:{
             - 健康的な食生活を支えられる献立を、楽天レシピAPIから提案する。
@@ -86,7 +86,7 @@ def_gpts_main(order) -> responce(str):{
         }
     }
 }
-Insight:{
+# Insight:{
     - 栄養素:{
         - カロリー: 体のエネルギー源として必要です。
         - 食物繊維: 消化を助け、満腹感を持続させるために必要です。
