@@ -59,8 +59,7 @@ paths:
           schema:
             type: string
           required: true
-          description: |
-            - "Refer to the [rakuten_recipe_categoryList.md] file in the knowledge and retrieve the categoryId."
+          description: "Refer to the [categoryId_Table.csv]file in the knowledge and retrieve the categoryId."
       responses:
         '200':
           description: A successful response containing top 3 recipes in the specified category.
