@@ -7,6 +7,9 @@
 ## dir
 ```
 samples/
+    └── Createxyz/
+        └── src/
+            ├── motsunabe_prompt.md: Createを用いたもつ鍋屋(仮)HP作成時に使用したプロンプトです。
     └── Generate_imege/
         └── assets/
             ├── xxx.png: 生成AIで作成した画像のサンプル集を格納しています。
