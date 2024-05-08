@@ -13,8 +13,9 @@ samples\
         └── src
             ├── img_prompt_list.md: プロンプトと作成した画像を添付してまとめています。
     └── MY_GPTs\
-        └── 01_AI_prompt_template.md: MY GPTsや、AI指示の際によく使用しているテンプレートです。
-        └── Designs\
+        └── 00_global_template\
+            └── AI_prompt_template.md: MY GPTsや、AI指示の際によく使用しているテンプレートです。
+        └── Designs_for_POD\
             └── src\
                 ├── cooking_master_functions.md: knowledgeにある、各機能についての記述です。
         └── 献立マスター\
