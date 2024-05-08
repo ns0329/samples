@@ -27,4 +27,4 @@
 - Negative prompt:{
     [easynegative, worst quality, ugly, bad anatomy, jpeg artifacts, nsfw, text, watermark, bad hands, extra digit, fewer digits, out of focus, JPEG artifacts, low resolution, nipples, long_body, mutated hands, missing arms, extra_arms, extra_legs, bad hands, missing_limb, disconnected_limbs, extra_fingers, missing fingers, liquid fingers, ugly face, deformed eyes, cropped, text, signature, split view, grid view, two shot, poorly drawn eyes, weird face, strange face]
 }
-![a girl](samples\Generate_imege\assets\00015-4222947585.png)
+![a girl](https://github.com/nsh00/samples/blob/main/Generate_imege/assets/00015-4222947585.png)
