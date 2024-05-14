@@ -21,7 +21,7 @@
 - prompt:{
     [A light novel style illustration of a girl surrounded by cherry blossoms. The girl has a delicate, anime-inspired appearance with large, expressive eyes and flowing hair. She is dressed in a soft, flowing outfit that complements the gentle swirl of pink cherry blossom petals around her. The setting is serene and dreamy, emphasizing a sense of spring and renewal.]
 }
-![sakura_girl]()
+![sakura_girl](https://github.com/nsh00/samples/blob/main/Generate_imege/assets/sakura_girl.png)
 
 ## Stable Diffusion
 - model: animePastelDream_softBakedVae
