@@ -36,11 +36,11 @@
     - 使用するメインカラーは3色までとする。
 }
 - Dir:{
-    TOP(1.トップページ)/
-        └── Header/
-        └── main contents/
-            └── Menu Display(2.メニュー一覧), Reservation System, Confirm button/
-                └── 予約確定内容の表示ページ/
-            └── Location Information(3.店舗案内)/
-        └── footer/
+    - TOP(1.トップページ)/ 
+        - └── Header/
+        - └── main contents/
+            - └── Menu Display(2.メニュー一覧), Reservation System, Confirm button/
+                - └── 予約確定内容の表示ページ/
+            - └── Location Information(3.店舗案内)/
+        - └── footer/
 }
