@@ -9,4 +9,5 @@
 *.cache
 
 # Ignore directories
-/projects/00_sample_dir/*
+/00_sample_dir/*
+/Notebook/YouTube/client_secrets.json
